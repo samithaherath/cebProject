@@ -152,6 +152,7 @@ body {
               <a href="/ournews">News</a>
               <a href="/ourevents">Events</a>
               <a href="/ourstaff">Staff</a>
+              <a href="">Members</a>
               <a href="/downloads">Downloads</a>
               <a href="/contactinfo">Contact Information</a>
               <a href="/contact">Contact Us</a>
@@ -229,6 +230,7 @@ body {
               <li><a href="/ournews">News</a></li>
               <li><a href="/ourevents">Events</a></li>
               <li><a href="/ourstaff">Staff</a></li>
+              <li><a href="">Members</a></li>
               <li><a href="/downloads">Downloads</a></li>
               <li><a href="/contactinfo">Contact Information</a></li>
               <li><a href="/contact">Contact Us</a></li>
