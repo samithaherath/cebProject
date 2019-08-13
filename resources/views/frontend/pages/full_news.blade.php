@@ -15,12 +15,12 @@
 			<div class="outro col-md-10" style="padding-top: 20px;">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">News Tag</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$new->newstag}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$new->newstag}}" disabled>
                 </div>
             </div>
             <div class="outro col-md-10" style="padding-top: 20px;">
                
-                 <textarea rows="15" class="form-control" disabled>
+                 <textarea style="background-color: white;"  rows="15" class="form-control" disabled>
                     {{$new->long_desc}}
                 </textarea>
             </div>
@@ -39,7 +39,7 @@
                                                   
                                                      <div class="col-sm-3 col-md-2  item">
                     <a  href="{{URL::to('/')}}/news/news_gallery_images/{{$gallery_img}}" data-lightbox="photos">
-                        <img style="width: 175px;height: 130px;padding-right: 1px;padding-top: 10px;"  class="img-fluid" src="{{URL::to('/')}}/news/news_gallery_images/{{$gallery_img}}">
+                        <img style="width: auto;height: 130px;padding-right: 1px;padding-top: 10px;"  class="img-fluid" src="{{URL::to('/')}}/news/news_gallery_images/{{$gallery_img}}">
                     </a>
                 </div>
                                         @endforeach
