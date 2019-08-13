@@ -8,7 +8,7 @@
 							   <a href="{{route('eventfront.show',$event->id)}}">
 								   <i class="fas fa-link"></i>
 							   </a> 
-							   <img style="width:400px; height:250px;" src="{{URL::to('/')}}/event/mainimg/{{$event->main_image}}" alt="">
+							   <img style="width:auto; height:50vh;" src="{{URL::to('/')}}/event/mainimg/{{$event->main_image}}" alt="">
 							</div>
                            <div class="event-post-content">
                               <div class="event-post-txt">
