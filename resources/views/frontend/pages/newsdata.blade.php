@@ -7,7 +7,7 @@
                            <div class="new-thumb">
                               <span class="cat c1">{{$new->newstag}}</span>
 							   
-							   		<img style="width:400px; height:250px;" src="{{URL::to('/')}}/news/mainimg/{{$new->main_image}}" alt=""> 
+							   		<img style="width:auto; height:50vh;" src="{{URL::to('/')}}/news/mainimg/{{$new->main_image}}" alt=""> 
 							   
                            </div>
                            <div class="new-txt">
