@@ -8889,4 +8889,15 @@ footer .btn {
         text-align: center;
         
     }
+#datatables2_filter input {
+        width: 200px;
+        font-size: 22px;
+        margin-right:40px;
+    }
+#datatables2_filter input::placeholder {
+       
+        font-size: 14px;
+        text-align: center;
+        
+    }
 
