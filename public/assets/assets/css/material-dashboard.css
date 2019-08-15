@@ -8878,3 +8878,15 @@ footer .btn {
 @media screen and (max-width: 470px) {
   .fc-toolbar .fc-left {
     margin-bottom: 15px; } }
+#datatables_filter input {
+        width: 200px;
+        font-size: 22px;
+        margin-right:40px;
+    }
+#datatables_filter input::placeholder {
+       
+        font-size: 14px;
+        text-align: center;
+        
+    }
+
