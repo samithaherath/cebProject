@@ -365,6 +365,34 @@
     </ul>
 </div>
 </li>
+<!--################################ Downloads #########################-->
+    <li>
+
+    <a data-toggle="collapse" href="#componentsExamples10">
+        <i class="material-icons">cloud_download</i>
+        <p> Downloads
+         <b class="caret"></b>
+     </p>
+ </a>
+
+ <div class="collapse" id="componentsExamples10">
+    <ul class="nav">
+      
+        <li>
+            <a href="">
+                <span class="sidebar-mini"> AND </span>
+                <span class="sidebar-normal"> Add New Downloadable Item </span>
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <span class="sidebar-mini"> ED </span>
+                <span class="sidebar-normal"> Manage Download</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</li>
 	<!--################################ Notifications #########################-->
 	<li>
 
