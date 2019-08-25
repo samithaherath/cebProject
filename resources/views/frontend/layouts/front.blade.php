@@ -115,13 +115,34 @@ body {
   .sidebar a {font-size: 18px;}
 		
 }
-	  @media screen and (max-width: 900px) {
+	  @media screen and (max-width: 767px) {
 
 	.openbtn{
 	  display:block;}
 		  	.navbar-brand{
   display: block;
 }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .openbtn{
+    display:block;
+  } 
+
+  .navbar-brand{
+    display: block;
+  }
 }
 body {
   background-color:white;
