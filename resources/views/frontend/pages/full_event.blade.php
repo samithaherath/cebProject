@@ -19,25 +19,25 @@
              <div class="col-sm-10">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">Organizer</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$event->orgnizer}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$event->orgnizer}}" disabled>
                 </div>
             </div>
             <div class="col-sm-10">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">Contact No</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$event->contactno}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$event->contactno}}" disabled>
                 </div>
             </div>
             <div class="col-sm-10">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">Date</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$event->e_date}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$event->e_date}}" disabled>
                 </div>
             </div>
  <div class="col-sm-10">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">Time</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$event->e_time}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$event->e_time}}" disabled>
                 </div>
             </div>
             <div class="outro col-md-10" style="padding-top: 20px;">
@@ -65,7 +65,7 @@
         @foreach (explode(",",$event->gallery_img) as $gallery_img)
             <div class="col-sm-3 col-md-2  item">
                 <a  href="{{URL::to('/')}}/event/event_gallery_images/{{$gallery_img}}" data-lightbox="photos">
-                        <img style="width: 175px;height: 130px;padding-right: 1px;padding-top: 10px;padding-bottom: 20px"  class="img-fluid" src="{{URL::to('/')}}/event/event_gallery_images/{{$gallery_img}}">
+                        <img style="width: auto;height: 130px;padding-right: 1px;padding-top: 10px;padding-bottom: 20px"  class="img-fluid" src="{{URL::to('/')}}/event/event_gallery_images/{{$gallery_img}}">
                     </a>
                 </div>
         @endforeach
@@ -73,7 +73,7 @@
             <div class="col-sm-10">
                 <div class="form-group label-floating is-empty">
                     <label class="control-label">Venue</label>
-                    <input type="text" class="form-control" name="e_heading" value="{{$event->e_venue}}" disabled>
+                    <input style="background-color: white;"  type="text" class="form-control" name="e_heading" value="{{$event->e_venue}}" disabled>
                 </div>
                  <button  class="btn btn-warning pull-right" onclick="goBack()">Go Back</button>
             </div>
