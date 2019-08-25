@@ -113,6 +113,12 @@
      <div class="collapse" id="pagesExamples">
         <ul class="nav">
             <li>
+                <a href="">
+                    <span class="sidebar-mini"> PM </span>
+                    <span class="sidebar-normal"> Pending Registrations</span>
+                </a>
+            </li>
+            <li>
                 <a href="{{route('member.add')}}">
                     <span class="sidebar-mini"> RNM </span>
                     <span class="sidebar-normal"> Register New Member </span>
@@ -178,6 +184,35 @@
         </ul>
     </div>
 </li>
+<!--############################  Add Contact Person  #####################################-->
+    <li>
+        <a data-toggle="collapse" href="#pagesExamplesC">
+            <i class="material-icons">assignment_ind</i>
+            <p>Contacts
+             <b class="caret"></b>
+         </p>
+     </a>
+
+     <div class="collapse" id="pagesExamplesC">
+        <ul class="nav">
+            
+			  <li>
+                <a href="">
+                    <span class="sidebar-mini"> AC </span>
+                    <span class="sidebar-normal"> Add Contact Person </span>
+                </a>
+            </li>
+		
+            
+			<li>
+                <a href="">
+                    <span class="sidebar-mini"> MC</span>
+                    <span class="sidebar-normal"> Manage ContactS </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li> 
 <!--############################   Messages   #####################################-->
 <li>
 
@@ -330,7 +365,57 @@
     </ul>
 </div>
 </li>
+<!--################################ Downloads #########################-->
+    <li>
 
+    <a data-toggle="collapse" href="#componentsExamples10">
+        <i class="material-icons">cloud_download</i>
+        <p> Downloads
+         <b class="caret"></b>
+     </p>
+ </a>
+
+ <div class="collapse" id="componentsExamples10">
+    <ul class="nav">
+      
+        <li>
+            <a href="">
+                <span class="sidebar-mini"> AND </span>
+                <span class="sidebar-normal"> Add New Downloadable Item </span>
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <span class="sidebar-mini"> ED </span>
+                <span class="sidebar-normal"> Manage Download</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</li>
+	<!--################################ Notifications #########################-->
+	<li>
+
+    <a data-toggle="collapse" href="#componentsExamples01">
+        <i class="material-icons">perm_scan_wifi</i>
+        <p>Notifications
+         <b class="caret"></b>
+     </p>
+ </a>
+
+ <div class="collapse" id="componentsExamples01">
+    <ul class="nav">
+      <li>
+            <a href="">
+                <span class="sidebar-mini"> MN </span>
+                <span class="sidebar-normal">My Notifications</span>
+            </a>
+        </li>
+      
+       
+    </ul>
+</div>
+</li>
 
 
 
@@ -351,6 +436,12 @@
             <a href="{{route('workplace.workplaces')}}">
                 <span class="sidebar-mini"> WPM </span>
                 <span class="sidebar-normal">Work Place Manage </span>
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <span class="sidebar-mini"> DM </span>
+                <span class="sidebar-normal">Depo Manage </span>
             </a>
         </li>
         <li>
