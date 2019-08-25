@@ -9762,7 +9762,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	.mobile{
 		display:none;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 990px){
 	#call-2-action{
 		width: 100%;
 	}
@@ -14289,7 +14289,7 @@ p.pc {
 	z-index: -1;
 	
 }
-@media screen and (max-width:639px){
+@media screen and (max-width:990px){
 	#c{
 		width: 100%;
 	}
@@ -14369,7 +14369,7 @@ select {
 	  margin-left: 120px;
   }
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 990px){
 	#otr{
 		width: 100%;
 		margin: 0px auto;
@@ -14382,7 +14382,7 @@ select {
 	
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 990px){
 	#bs-example-navbar-collapse-1{
 		width: 100%;
 		/*margin-left:0px;*/
@@ -14461,7 +14461,7 @@ select {
 	  }
 	  
 	 
-	  @media screen and (max-width: 900px){
+	  @media screen and (max-width: 990px){
 
 			#ftr{
 				font-size: 10px;
@@ -14555,7 +14555,7 @@ input[placeholder] {
 	z-index:-2;
 } 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 990px){
 	.official-membersr{
 		width: 100%;
 		height: 50px;
