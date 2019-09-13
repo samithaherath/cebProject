@@ -144,6 +144,10 @@ Route::get('admin/staff/recycle/{id}','StaffController@recycle')->name('staff.re
 Route::post('admin/staff/edit/{id}','StaffController@update')->name('staffs.update'); 
 Route::resource('staff','StaffController');
 
+//transfer section
+Route::get('admin/transfer/pending','TransferController@index')->name('transfer.index');
+Route::get('admin/transfer/transfered','TransferController@view')->name('transfer.view');
+
 
 //events section routes
 Route::delete('restoreallevents','EventController@restoreall');

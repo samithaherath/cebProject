@@ -184,6 +184,36 @@
         </ul>
     </div>
 </li>
+
+    <!--############################  Transfer Board   #####################################-->
+
+    <li>
+        <a data-toggle="collapse" href="#pagesExamplesSa">
+            <i class="material-icons">assignment_ind</i>
+            <p>Transfer Board
+                <b class="caret"></b>
+            </p>
+        </a>
+
+        <div class="collapse" id="pagesExamplesSa">
+            <ul class="nav">
+
+                <li>
+                    <a href="{{route('transfer.index')}}">
+                        <span class="sidebar-mini"> PL </span>
+                        <span class="sidebar-normal"> Pending List </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('transfer.view')}}">
+                        <span class="sidebar-mini"> TL </span>
+                        <span class="sidebar-normal"> Transfered List </span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </li>
 <!--############################  Add Contact Person  #####################################-->
     <li>
         <a data-toggle="collapse" href="#pagesExamplesC">
