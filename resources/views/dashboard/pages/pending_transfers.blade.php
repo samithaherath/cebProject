@@ -42,7 +42,7 @@ Pending Transfers CEBTU
                                 </tr>
                             </thead>
                             <tbody>
-
+                            @foreach($data as $value)
                                 <tr>
                                     <td></td>
                                     <td>
@@ -52,14 +52,15 @@ Pending Transfers CEBTU
                                             </label>
                                         </div>
                                     </td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>{{$value->epf_no}}</td>
+                                    <td>{{$value->name}}</td>
                                     <td class="td-actions text-left">
                                         <a href="view_p_trans" type="button" class="btn btn-info"><i class="material-icons">person</i></a>
                                         <a href="cnfrm_p_trans" type="button"><i class="material-icons btn-primary">card_travel</i></a>
                                         <a type="button" class="btn btn-danger" href="" onclick="return confirm('Are you sure you want to Delete?')"><i class="material-icons">delete</i></a>
                                     </td>
                                 </tr>
+                                @endforeach
                             </tbody>
                         </table>
                         <button formaction="" class="btn btn-danger" type="submit" onclick="return confirm('Are you sure you want to Delete?')">Delete All Selected</button>
