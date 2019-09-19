@@ -189,7 +189,7 @@
 
     <li>
         <a data-toggle="collapse" href="#pagesExamplesSa">
-            <i class="material-icons">assignment_ind</i>
+            <i class="material-icons">rowing</i>
             <p>Transfer Board
                 <b class="caret"></b>
             </p>
