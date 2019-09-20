@@ -40,4 +40,12 @@ class TransferController extends Controller
 
         return back();
     }
+
+    public function profile($id){
+
+        $user = Transfer::find($id);
+        return view('dashboard.pages.view_pending_transfers',compact('user'));
+
+    }
+
 }

@@ -148,6 +148,7 @@ Route::resource('staff','StaffController');
 Route::get('admin/transfer/pending','TransferController@index')->name('transfer.index');
 Route::get('admin/transfer/transfered','TransferController@view')->name('transfer.view');
 Route::post('admin/transfer/transfered-save','TransferController@import')->name('import');
+Route::get('admin/transfer/profile/{id}','TransferController@profile')->name('transfer.profile');
 
 
 //events section routes
