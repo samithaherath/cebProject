@@ -56,7 +56,7 @@ Pending Transfers CEBTU
                                     <td>{{$value->name}}</td>
                                     <td class="td-actions text-left">
                                         <a href="{{route('transfer.profile',$value->id)}}" type="button" class="btn btn-info"><i class="material-icons">person</i></a>
-                                        <a href="cnfrm_p_trans" type="button"><i class="material-icons btn-primary">card_travel</i></a>
+                                        <a href="{{route('transfer.transfer_profile',$value->id)}}" type="button"><i class="material-icons btn-primary">card_travel</i></a>
                                         <a type="button" class="btn btn-danger" href="" onclick="return confirm('Are you sure you want to Delete?')"><i class="material-icons">delete</i></a>
                                     </td>
                                 </tr>

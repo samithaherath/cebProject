@@ -144,10 +144,29 @@
 
                                  </div>
                              </div>
+                             </div>
+                            <div class="row">
+                               <label class="col-sm-2 label-on-left">Transfer Id</label>
 
-                         </div>
+                               <div class="col-sm-10">
+                                   <div class="form-group label-floating is-empty">
+                                       <input type="text" class="form-control" >
+                                   </div>
+                               </div>
 
-                          <a href="{{route('transfer.index')}}"  class="btn btn-danger pull-right">Back</a>
+                             </div>
+                            <div class="row">
+                               <label class="col-sm-2 label-on-left">Transfer to</label>
+
+                               <div class="col-sm-10">
+                                   <div class="form-group label-floating is-empty">
+                                       <input type="text" class="form-control" >
+                                   </div>
+                               </div>
+
+                             </div>
+                             <a href="{{route('transfer.index')}}"  class="btn btn-danger pull-right">Back</a>
+
                      </div>
                  </form>
 
