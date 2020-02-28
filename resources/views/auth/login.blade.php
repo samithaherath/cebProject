@@ -47,7 +47,7 @@
 
                                 </div>
                                 <div class="footer text-center">
-                                    <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg">Let's go</button>
+                                    <button type="submit" class="btn btn-success">Let's go</button>
                                     <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
